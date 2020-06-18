@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_whyred.mk
+    $(LOCAL_DIR)/derp_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_whyred-user \
-    stag_whyred-userdebug \
-    stag_whyred-eng
+    derp_whyred-user \
+    derp_whyred-userdebug \
+    derp_whyred-eng
