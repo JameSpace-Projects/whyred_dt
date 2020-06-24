@@ -30,11 +30,7 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some SynthOS specifically stuffs
-DERP_BUILDTYPE := Synthetic
-DERP_BUILD_ZIP_TYPE := VANILLA
-AOSIP_BUILD_VERSION := Quinque-10.0
-
+# Inherit some stuffs
 CUSTOM_BUILD_TYPE := Weaboolized
 
 PRODUCT_BRAND := Xiaomi
