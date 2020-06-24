@@ -105,7 +105,7 @@ public class DeviceSettings extends PreferenceFragment implements
         backlightDimmer.setChecked(BacklightDimmer.isCurrentlyEnabled(this.getContext()));
         backlightDimmer.setOnPreferenceChangeListener(new BacklightDimmer(getContext()));
 
-        SwitchPreference usbfastCharger = (SecureSettingSwitchPreference) findPreference(PREF_USB_FASTCHARGE);
+        SecureSettingSwitchPreference usbfastCharger = (SecureSettingSwitchPreference) findPreference(PREF_USB_FASTCHARGE);
         usbfastCharger.setEnabled(FileUtils.fileWritable(USB_FASTCHARGE_PATH));
         usbfastCharger.setChecked(FileUtils.getFileValueAsBoolean(USB_FASTCHARGE_PATH, true));
         usbfastCharger.setOnPreferenceChangeListener(this);
